@@ -1,0 +1,44 @@
+body {
+    background-color:silver;
+}
+h1 {
+    color:purple;
+    font-family:'Times New Roman', Times, serif
+}
+h2 {
+    color: yellow;
+    font-family:'Times New Roman', Times, serif
+}
+.p1 {
+    font-family:"Lucida Console", "Courier New", monospace;
+}
+.p2 {
+    font-family:"Copperplate", "Papyrus", fantasy;
+}
+table, th, td {
+    border: 1px solid black;
+    font-size: medium;
+    font-style: italic;
+    font-family: cursive;
+}
+.image {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size:x-large;
+}
+.center {
+    position: absolute;
+    top: 20px;
+    left: 370px;
+    transform: translate (-50%,-50%);
+} 
+p.dotted {border-style: dotted;}
+button {
+    width=200px;
+       height=200px;
+       border-radius:100px;
+   }
+   .float {
+    float: right;
+}
